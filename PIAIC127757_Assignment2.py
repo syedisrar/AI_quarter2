@@ -86,8 +86,8 @@ def function4():
     #Swap columns 1 and 2 in the array arr.
    
     arr = np.arange(9).reshape(3,3)
-    arr[:,[0, 1]] = arr[:,[1, 0]]
-    return arr #wrtie your code here  arr[:,[0, 1]] = arr[:,[1, 0]]
+    arr[:,[0, 1]] = arr[:,[1, 0]] #wrtie your code here
+    return arr 
     """
     Expected Output:
           array([[1, 0, 2],
